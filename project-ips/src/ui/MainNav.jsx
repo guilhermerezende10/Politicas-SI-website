@@ -7,7 +7,7 @@ function MainNav() {
       <ul className={styles.navList}>
         <li>
           <NavLink to="/home" className={styles.navLink}>
-            <span>Home</span>
+            <span>Início</span>
           </NavLink>
         </li>
         <li>

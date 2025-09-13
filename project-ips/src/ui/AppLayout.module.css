@@ -1,6 +1,6 @@
 .appLayout {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 28rem 3fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
   margin: 0;
@@ -14,5 +14,10 @@
 }
 
 .appLayout Header {
-  background-color: var(--color-grey-50);
+  background-color: var(--color-grey-0);
+}
+
+.appLayout main {
+    background-color: var(--color-grey-100);
+
 }
