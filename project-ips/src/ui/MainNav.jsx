@@ -12,24 +12,24 @@ function MainNav() {
         </li>
         <li>
           <NavLink to="/controle-de-acesso" className={styles.navLink}>
-            <span>Controle de Acesso</span>
+            <span>Controle</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/uso-aceitavel" className={styles.navLink}>
-            <span>Uso Aceitável</span>
+            <span>Uso </span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/seguranca-fisica-ambiental" className={styles.navLink}>
-            <span>Segurança Física e Ambiental</span>
+            <span>Segurança </span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/backup-recuperacao" className={styles.navLink}>
-            <span>Backup e Recuperação</span>
+            <span>Backup </span>
           </NavLink>
         </li>
       </ul>
