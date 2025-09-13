@@ -11,6 +11,11 @@ function MainNav() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/controle-de-acesso" className={styles.navLink}>
+            <span>Controle de Acesso</span>
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/uso-aceitavel" className={styles.navLink}>
             <span>Uso Aceitável</span>
           </NavLink>

@@ -5,6 +5,8 @@ import UsoAceitavel from "./pages/UsoAceitavel.jsx";
 import SegurancaFisicaAmbiental from "./pages/SegurancaFisicaAmbiental.jsx";
 import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada.jsx";
 import AppLayout from "./ui/AppLayout.jsx";
+import ControleAcesso from "./pages/ControleAcesso.jsx";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />
           <Route path="home" element={<Home />} />
+          <Route path="controle-de-acesso" element={<ControleAcesso />} />
           <Route path="backup-recuperacao" element={<BackupRecuperacao />} />
           <Route path="uso-aceitavel" element={<UsoAceitavel />} />
           <Route
