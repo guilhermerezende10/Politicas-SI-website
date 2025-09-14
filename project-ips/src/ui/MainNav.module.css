@@ -34,6 +34,11 @@
   list-style-type: none;
   padding-left: 0;
 }
+.navList span {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 
 .mainNav {
   padding-top: 3em;

@@ -1,11 +1,15 @@
 .text {
-    font-size: 1em;
+    font-size: 1.5em;
     max-width: 65%;
 }
 
 .textContainer {
+    margin: 20px 10px;
+}
+
+.textContainer p {
     display: flex;
     margin: auto;
     justify-content: justify;
-    padding-left: 35em;
 }
+
