@@ -1,9 +1,11 @@
+import Logo from "./Logo";
 import MainNav from "./MainNav";
 import styles from "./SideBar.module.css";
 
 function Sidebar() {
   return (
     <aside className={styles.sidebar}>
+      <Logo />
       <MainNav />
     </aside>
   );
