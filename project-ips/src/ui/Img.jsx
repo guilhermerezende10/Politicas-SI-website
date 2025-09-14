@@ -1,9 +1,11 @@
-import styles from "./Img.module.css"
+import styles from "./Img.module.css";
 
-function Img({path}) {
-    return (
-        <img src={path} className={styles.img}/>
-    )
+function Img({ path, alt = "" }) {
+  return (
+    <div className={styles.imgContainer}>
+      <img src={path} alt={alt} className={styles.img} />
+    </div>
+  );
 }
 
-export default Img
+export default Img;

@@ -1,6 +1,14 @@
-.img {
-  max-width: 60%;
+.imgContainer {
+  margin: 2rem auto;          /* same spacing as Text */
+  padding: 0 1rem;            /* same padding */
+  max-width: 90ch;             /* same width as Text */
   display: flex;
-  justify-content: center;
-  margin: auto;
+  justify-content: center;     /* center image inside container */
+}
+
+.img {
+  width: 100%;                 /* fill container width exactly */
+  height: auto;                /* maintain aspect ratio */
+  border-radius: 8px;          /* optional for a polished look */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
 }

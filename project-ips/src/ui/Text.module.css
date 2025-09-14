@@ -1,15 +1,12 @@
-.text {
-    font-size: 1.5em;
-    max-width: 65%;
-}
-
 .textContainer {
-    margin: 20px 10px;
+  margin: 2rem auto;           /* balanced spacing */
+  padding: 0 1rem;             /* breathing room on small screens */
+  max-width: 90ch;             /* optimal readable width (~65 characters) */
 }
 
-.textContainer p {
-    display: flex;
-    margin: auto;
-    justify-content: justify;
+.text {
+  font-size: 2.3rem;         /* ~18px for readability */
+  color: var(--color-grey-700);/* use your design system colors */
+  text-align: justify;         /* justified text */
+  font-weight: 400;            /* professional weight */
 }
-
