@@ -1,14 +1,15 @@
 .imgContainer {
-  margin: 2rem auto;          /* same spacing as Text */
-  padding: 0 1rem;            /* same padding */
-  max-width: 90ch;             /* same width as Text */
+  margin: 2rem auto;          /* mesmo espaçamento do Text */
+  padding: 0 1rem;            /* mesmo padding */
+  max-width: 80ch;            
   display: flex;
-  justify-content: center;     /* center image inside container */
+  justify-content: center;    /* centraliza a imagem */
 }
 
 .img {
-  width: 100%;                 /* fill container width exactly */
-  height: auto;                /* maintain aspect ratio */
-  border-radius: 8px;          /* optional for a polished look */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
+  width: 100%;                 
+  aspect-ratio: 16 / 9;       /* força a proporção 16:9 */
+  object-fit: cover;          /* garante que a imagem preencha a área sem distorcer */
+  border-radius: 8px;         
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

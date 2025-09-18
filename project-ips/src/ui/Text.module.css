@@ -1,12 +1,13 @@
 .textContainer {
   margin: 2rem auto;           /* balanced spacing */
-  padding: 0 1rem;             /* breathing room on small screens */
-  max-width: 90ch;             /* optimal readable width (~65 characters) */
+  padding: 2rem 3rem;             /* breathing room on small screens */
+  max-width: 80ch;             /* optimal readable width (~65 characters) */
 }
 
 .text {
-  font-size: 2.3rem;         /* ~18px for readability */
+  font-size: 1.8rem;         
   color: var(--color-grey-700);/* use your design system colors */
   text-align: justify;         /* justified text */
   font-weight: 400;            /* professional weight */
+  line-height: 3rem;       
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "./ShowMore.module.css"
+import styles from "./ShowMore.module.css";
 
-function ShowMore({ children, maxLength }) {
+function ShowMore({ children, maxLength = 700 }) {
   const [isExpanded, setIsExpanded] = useState(false);
   if (typeof children !== "string") return null;
   if (children.length === 0) return null;

@@ -1,71 +1,103 @@
 import Title from "../ui/Title";
 import Text from "../ui/Text";
 import Img from "../ui/Img";
+import ShowMore from "../ui/ShowMore";
 
 function UsoAceitavel() {
   return (
     <>
       <Title>Uso Aceitável</Title>{" "}
-      <Img path="https://www.actwork.com.br/wp-content/uploads/shutterstock_738059353.jpg" />
+      <Img path="https://wehandle.com.br/hubfs/Imported_Blog_Media/213815-seguranca-da-informacao-principais-erros-cometidos-por-profissionais-de-ti.jpg" />
       <Text>
-        1. Introdução O Uso Aceitável de Recursos (UAR) é uma política
-        fundamental em qualquer organização que define como os sistemas,
-        dispositivos, redes e informações corporativas devem ser utilizados
-        pelos colaboradores. Ele visa garantir que os recursos tecnológicos
-        sejam usados de forma responsável, segura e ética, protegendo a empresa
-        de riscos de segurança, legais e operacionais. Com a crescente
-        digitalização, o UAR se tornou essencial para prevenir abuso de
-        recursos, vazamentos de dados, acessos não autorizados e comportamentos
-        que possam comprometer a produtividade ou a reputação da organização.
+        <ShowMore maxLength={699}>
+          O Uso Aceitável de Recursos, conhecido pela sigla UAR, é uma política
+          de extrema importância dentro de qualquer organização moderna.
+          Trata-se de um conjunto de orientações que define como colaboradores
+          devem utilizar sistemas, dispositivos, redes e informações
+          corporativas. A ideia é simples, mas poderosa: garantir que os
+          recursos tecnológicos disponíveis sejam utilizados de maneira
+          responsável, ética e segura. Com a transformação digital cada vez mais
+          presente em empresas de todos os setores, cresce também a necessidade
+          de regras claras para evitar abusos, acessos não autorizados,
+          vazamentos de dados e atitudes que possam comprometer a reputação ou
+          até a própria continuidade operacional da instituição. Na prática, o
+          conceito de Uso Aceitável de Recursos se traduz em um guia de conduta
+          que delimita responsabilidades e limitações no uso das tecnologias
+          corporativas. Essas diretrizes deixam explícito quais recursos podem
+          ser utilizados, quais comportamentos são permitidos ou proibidos, além
+          dos procedimentos a serem seguidos em casos de incidentes ou
+          violações. O objetivo vai muito além da simples restrição: trata-se de
+          proteger informações sensíveis, reduzir riscos de ataques
+          cibernéticos, assegurar o cumprimento de leis e normas vigentes e, ao
+          mesmo tempo, promover produtividade e alinhamento com a cultura
+          organizacional da empresa.
+        </ShowMore>
       </Text>
       <Text>
-        2. Conceito O Uso Aceitável de Recursos é um conjunto de regras e
-        diretrizes que estabelece os limites e responsabilidades no uso de
-        tecnologias corporativas. Define quais recursos podem ser usados,
-        comportamentos permitidos e proibidos, e procedimentos para reportar
-        incidentes ou violações. Os objetivos principais incluem garantir uso
-        ético e seguro dos recursos, proteger informações sensíveis, reduzir
-        riscos de incidentes de segurança e promover produtividade e alinhamento
-        com a cultura organizacional.
+        Uma política de UAR bem estruturada geralmente contempla diversos
+        componentes. Entre eles está o controle de acesso a sistemas e redes,
+        que define quem pode acessar determinados recursos e sob quais
+        permissões. Também aparecem regras específicas para o uso de e-mails e
+        outros meios de comunicação corporativa, reforçando que devem ser
+        destinados apenas a fins profissionais. O uso da internet e o download
+        de softwares não confiáveis é outro ponto sensível, assim como o
+        gerenciamento de dispositivos corporativos e o chamado BYOD (“Bring Your
+        Own Device”), que exige regulamentação quando equipamentos pessoais
+        acessam sistemas da empresa. Além disso, há aspectos cruciais
+        relacionados à segurança da informação, como armazenamento seguro, uso
+        de backups e práticas adequadas de senhas, somados ao monitoramento e
+        auditoria, que permitem acompanhar a conformidade dos colaboradores e
+        identificar incidentes em tempo hábil.
+      </Text>
+      <Img path="https://phoenixnap.com/glossary/wp-content/uploads/2024/06/what-is-acceptable-use-policy.jpg" />
+      <Text>
+        Entre as boas práticas recomendadas para que a política de UAR seja
+        eficaz, destacam-se a educação contínua dos colaboradores sobre
+        segurança digital e a aplicação do princípio do menor privilégio,
+        garantindo que cada usuário só tenha acesso ao estritamente necessário
+        para exercer suas funções. Também é essencial proibir a instalação de
+        softwares não autorizados, incentivar a proteção de dados sensíveis com
+        o uso de senhas fortes e autenticação multifator, além de estimular o
+        relato imediato de qualquer incidente suspeito. Outro ponto fundamental
+        é a atualização periódica da política, de modo que ela acompanhe a
+        rápida evolução tecnológica e os novos desafios que surgem no cenário da
+        cibersegurança.
       </Text>
       <Text>
-        3. Componentes de uma Política de Uso Aceitável Entre os principais
-        componentes estão: acesso a sistemas e redes (quem pode acessar e com
-        quais permissões), uso de e-mail e comunicação corporativa (somente para
-        fins profissionais), uso da internet e downloads (evitar softwares não
-        confiáveis), dispositivos corporativos e BYOD (regras para equipamentos
-        pessoais que acessam sistemas corporativos), segurança de informações
-        (armazenamento seguro, backups e senhas) e monitoramento/auditoria
-        (acompanhar conformidade e incidentes).
+        Para reforçar sua credibilidade e aplicabilidade, uma política de Uso
+        Aceitável de Recursos deve estar alinhada a normas e padrões amplamente
+        reconhecidos. Entre os principais estão a ISO/IEC 27001 e 27002, que
+        tratam de controles de segurança e gestão de acessos; o NIST
+        Cybersecurity Framework, que fornece diretrizes específicas de segurança
+        da informação; e a Lei Geral de Proteção de Dados (LGPD), no caso
+        brasileiro, que regulamenta a forma como informações pessoais devem ser
+        tratadas. Além desses referenciais externos, cada organização também
+        pode integrar a política a seus códigos de conduta internos e demais
+        políticas corporativas já existentes.
+      </Text>
+      <Img path="https://sinfopac.com/images/5-melhores-plataformas-conscientizacao-ciberseguranca.png" />
+      <Text>
+        Os benefícios da implementação de uma política de Uso Aceitável de
+        Recursos vão muito além da prevenção de falhas técnicas. Com regras
+        claras, a organização consegue reduzir incidentes de segurança,
+        minimizar o risco de vazamentos de dados e proteger informações
+        confidenciais de alto valor. Além disso, promove um ambiente de trabalho
+        mais produtivo, já que delimita usos adequados da tecnologia, e assegura
+        conformidade com normas legais. Outro impacto positivo é a criação de
+        uma cultura de responsabilidade digital, em que cada colaborador entende
+        seu papel na preservação da segurança e da ética no uso dos recursos da
+        empresa.
       </Text>
       <Text>
-        4. Boas Práticas Boas práticas incluem educação contínua sobre
-        segurança, aplicação do princípio do menor privilégio, proibição de
-        instalação de softwares não autorizados, proteção de dados sensíveis com
-        senhas fortes e autenticação multifator, relato imediato de incidentes e
-        revisão periódica da política para mantê-la atualizada frente à evolução
-        tecnológica.
-      </Text>
-      <Text>
-        5. Normas e Referências O UAR deve estar alinhado a normas reconhecidas,
-        como ISO/IEC 27001 e 27002 (controles de segurança e gestão de acessos),
-        NIST Cybersecurity Framework (orientações sobre segurança de TI), LGPD
-        (proteção de dados pessoais) e políticas internas/códigos de conduta
-        específicos da organização.
-      </Text>
-      <Text>
-        6. Benefícios Uma política de Uso Aceitável eficiente reduz incidentes
-        de segurança e vazamentos de dados, protege informações confidenciais,
-        aumenta produtividade, garante conformidade legal e cria uma cultura de
-        responsabilidade digital e ética no uso da tecnologia.
-      </Text>
-      <Text>
-        7. Conclusão O Uso Aceitável de Recursos é essencial para manter um
-        ambiente corporativo seguro, ético e produtivo. Políticas claras
-        orientam os colaboradores sobre comportamentos esperados, protegem
-        ativos digitais e minimizam riscos legais, operacionais e de segurança.
-        Integrar o UAR a outras políticas de segurança fortalece a proteção
-        global da organização.
+        Em síntese, o Uso Aceitável de Recursos não é apenas uma recomendação,
+        mas sim um elemento essencial para o bom funcionamento e a proteção de
+        qualquer ambiente corporativo. Ao orientar os colaboradores sobre
+        comportamentos esperados e práticas adequadas, essas políticas oferecem
+        segurança, reduzem riscos e reforçam a credibilidade da organização
+        diante de clientes e parceiros. Quando integradas a outras políticas de
+        segurança da informação, fortalecem ainda mais a defesa digital da
+        empresa, criando uma estrutura sólida contra ameaças e promovendo um uso
+        consciente e responsável da tecnologia.
       </Text>
     </>
   );
