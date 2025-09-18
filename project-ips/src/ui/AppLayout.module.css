@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .appLayout {
   display: grid;
   grid-template-columns: 27rem 1fr; /* sidebar + content */
@@ -40,4 +42,43 @@
 .content {
   padding: 2rem;
   box-sizing: border-box;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--color-grey-0); /* degradê escuro elegante */
+  color: var(--color-grey-600); /* cinza bem claro para contraste */
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footerh1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footerh2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--color-grey-500);
+}
+
+.footerh2 span {
+  font-weight: 700;
+  color: var(--color-brand-600);; /* azul suave pro nome */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footerh2 span:hover {
+  text-decoration: underline;
+}
+
+.footerh2 a {
+  text-decoration: none;
+  color: inherit;
 }
