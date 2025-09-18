@@ -6,7 +6,7 @@ import ShowMore from "../ui/ShowMore";
 function Home() {
   return (
     <div>
-      <Title>O que é?</Title>
+      <Title>O que é Segurança da Informação?</Title>
 
       <Img path="https://www.totvs.com/wp-content/uploads/2022/10/politica-de-seguranca-da-informacao.jpg" />
       <Text>
